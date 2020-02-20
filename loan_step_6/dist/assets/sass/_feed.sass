@@ -1,0 +1,225 @@
+.feed
+    // display: none
+    position: relative
+    height: 100vh
+    padding-top: 100px
+    overflow: hidden
+    .title
+        margin-left: 148px
+        margin-top: -20px
+    .colored
+        position: absolute
+        bottom: 0
+        left: 84px
+        width: 100%
+        height: 40%
+        z-index: -1
+    &__slider
+		position: relative
+        width: 100%
+        height: 430px
+        margin-left: 148px
+        margin-top: 40px
+        z-index: 10
+        .slick-prev
+            z-index: 12
+            position: absolute
+            bottom: 0
+            left: 587px
+            width: 43px
+            height: 43px
+            border: 2px solid #EAEAEA
+            border-radius: 100%
+            background-color: transparent
+            cursor: pointer
+            margin-right: 12px
+            svg
+                position: absolute
+                width: 12px
+                height: 12px
+                top: 50%
+                left: 50%
+                transform: translateX(-65%) translateY(-50%)
+        .slick-next
+            z-index: 12
+            position: absolute
+            bottom: 0
+            left: 647px
+            width: 43px
+            height: 43px
+            border: 2px solid #EAEAEA
+            border-radius: 100%
+            background-color: transparent
+            cursor: pointer
+            svg
+                position: absolute
+                width: 12px
+                height: 12px
+                top: 50%
+                left: 50%
+                transform: translateX(-45%) translateY(-50%)
+    &__item
+        width: 241px
+        min-height: 341px
+        border-radius: 8px 
+        background-color: #fff
+        padding: 34px 40px 66px 40px
+        margin-right: 32px
+        transition: 0.5s all
+        &-info
+            display: block
+            .photo
+                width: 116px
+                height: 116px
+                margin: 0 auto
+                img
+                    width: 100%
+            .author
+                padding-left: 0px
+                &__name
+                    font-weight: 900
+                    line-height: normal
+                    font-size: 20px
+                    letter-spacing: -0.48px
+                    margin-top: 30px
+                    text-align: center
+                &__profession
+                    line-height: normal
+                    font-size: 13px
+                    letter-spacing: 1.365px
+                    text-transform: uppercase
+                    color: $main-color
+                    margin-top: 7px
+                    display: none
+                &__preview
+                    display: block
+                    font-weight: 900
+                    line-height: 20px
+                    font-size: 14px
+                    text-align: center
+                    letter-spacing: -0.28px
+                    margin-top: 13px
+                &__from
+                    display: none
+                    font-weight: normal
+                    line-height: normal
+                    font-size: 13px
+                    letter-spacing: -0.26px
+                    margin-top: 11px
+                    // margin-left: 5px
+                    span
+                        border-bottom: 1px solid #9F9F9F
+                        padding-bottom: 2px
+        hr 
+            display: none
+        &-play 
+            display: none
+            align-items: center
+            justify-content: center
+            padding-top: 20px
+            .playvideo
+                width: 26px
+                height: 26px
+                border: 1.5px solid #6D53AF
+                border-radius: 100%
+                position: relative
+                margin-right: 16px
+                svg 
+                    position: absolute
+                    left: 50%
+                    top: 50%
+                    transform: translateX(-40%) translateY(-50%)
+            .timing
+                line-height: normal
+                font-size: 13px
+                letter-spacing: 1.365px
+                text-transform: uppercase
+                color: $main-color
+        &-descr 
+            display: none
+            font-weight: normal
+            line-height: 24px
+            font-size: 14px
+            letter-spacing: -0.28px
+            margin-top: 26px
+        &-active
+            width: 555px
+            min-height: 380px
+            border-radius: 8px 
+            background-color: #fff
+            padding: 32px 40px 50px 40px
+            transition: 0.5s all
+            hr
+                display: block
+                margin-top: 20px
+                opacity: .2
+            .feed__item-info
+                display: flex
+                align-items: flex-start
+                .photo
+                    width: 116px
+                    height: 116px
+                    margin: initial
+                    img
+                        width: 100%
+                .author
+                    padding-left: 32px
+                    &__name
+                        font-weight: 900
+                        line-height: normal
+                        font-size: 24px
+                        letter-spacing: -0.48px
+                        margin-top: 0
+                    &__profession
+                        line-height: normal
+                        font-size: 13px
+                        letter-spacing: 1.365px
+                        text-transform: uppercase
+                        color: $main-color
+                        margin-top: 7px
+                        display: block
+                    &__preview
+                        display: none
+                    &__from
+                        display: block
+                        font-weight: normal
+                        line-height: normal
+                        font-size: 13px
+                        letter-spacing: -0.26px
+                        margin-top: 11px
+                        // margin-left: 5px
+                        span
+                            border-bottom: 1px solid #9F9F9F
+                            padding-bottom: 2px
+            .feed__item-play
+                display: flex
+                align-items: center
+                justify-content: center
+                padding-top: 20px
+                .playvideo
+                    width: 26px
+                    height: 26px
+                    border: 1.5px solid #6D53AF
+                    border-radius: 100%
+                    position: relative
+                    margin-right: 16px
+                    svg 
+                        position: absolute
+                        left: 50%
+                        top: 50%
+                        transform: translateX(-40%) translateY(-50%)
+                .timing
+                    line-height: normal
+                    font-size: 13px
+                    letter-spacing: 1.365px
+                    text-transform: uppercase
+                    color: $main-color
+            .feed__item-descr
+                display: block
+                font-weight: normal
+                line-height: 24px
+                font-size: 14px
+                letter-spacing: -0.28px
+                margin-top: 26px
+
+            

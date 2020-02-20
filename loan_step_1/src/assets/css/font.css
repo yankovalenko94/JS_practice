@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Mark';
+    src: url('../font/Mark-Heavy.woff2') format('woff2'),
+        url('../font/Mark-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mark';
+    src: url('../font/Mark-Regular.woff2') format('woff2'),
+        url('../font/Mark-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

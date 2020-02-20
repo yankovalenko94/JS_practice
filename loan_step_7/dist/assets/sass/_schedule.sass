@@ -1,0 +1,117 @@
+.schedule
+    // display: none
+    position: relative
+    height: 100vh
+    padding-top: 0px
+    overflow: hidden
+    &__wrapper
+        display: flex
+        width: 100%
+        height: 100%
+        align-items: flex-start
+        justify-content: space-between
+    &__info
+        position: relative
+        width: 50%
+        height: 100%
+        margin-left: 84px
+        padding-top: 87px
+        background: url('../img/talk_bg.jpg') center center no-repeat
+        background-size: cover
+        .title
+            color: #fff
+            margin-left: 66px
+        .subtitle
+            margin-left: 66px
+            margin-top: 28px
+            font-weight: normal
+            line-height: 20px
+            font-size: 14px
+            letter-spacing: -0.28px
+            color: #FFFFFF
+            mix-blend-mode: normal
+            opacity: 0.5
+        .colored
+            position: absolute
+            bottom: 0
+            width: 100%
+            height: 205px
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 24px
+            padding-left: 56px
+            .video
+                width: 361px
+                height: 157px
+                background-color: rgba(216, 216, 216, .3)
+                border: 1px solid #979797
+                box-sizing: border-box
+                border-radius: 8px
+                position: relative
+                .play
+                    width: 220px
+                    top: 50%
+                    left: 50%
+                    transform: translateX(-50%) translateY(-50%)
+
+            .contacts
+                &__mail, &__phone
+                    font-weight: normal
+                    line-height: normal
+                    font-size: 15px
+                    color: #FFFFFF
+                    margin-bottom: 18px
+                &__links   
+                    a 
+                        margin-right: 24px
+    &__form
+        width: 40%
+        height: 100%
+        padding-top: 100px
+        &-title
+            font-weight: 800
+            line-height: 64px
+            font-size: 32px
+            letter-spacing: -0.64px
+        .form
+            &__item
+                margin-top: 32px
+                width: 340px
+                position: relative
+                label
+                    display: block
+                    color: #000
+                    font-size: 15px
+                    font-weight: 900
+                input   
+                    width: 340px
+                    height: 64px
+                    background: rgba(216, 216, 216, 0.3)
+                    border-radius: 4px
+                    border: none
+                    margin-top: 11px
+                    padding: 22px 24px 23px 24px
+                    color: #000
+                    font-size: 14px 
+                    font-weight: normal
+                    line-height: 20px
+                    letter-spacing: -0.28px
+                    &::placeholder
+                        color: #000 
+                .icon 
+                    position: absolute
+                    right: 24px
+                    top: 55%
+                    &-double
+                        position: absolute
+                        right: 45px
+                        top: 53%
+                    &-down
+                        right: 24px
+                        top: 62% 
+            .btn
+                margin-top: 36px
+                background-color: #000
+                color: #fff
+                padding: 21px 66px 20px 66px

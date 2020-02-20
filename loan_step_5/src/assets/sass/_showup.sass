@@ -1,0 +1,222 @@
+.showup
+    // display: none
+    position: relative
+    height: 100vh
+    padding-top: 100px
+    &__wrapper
+        display: flex
+        width: 100%
+        height: 100%
+        align-items: flex-start
+        justify-content: space-between
+    &__intro
+        widows: 45%
+        margin-left: 84px
+        padding-left: 66px
+        padding-top: 24px
+        padding-right: 90px
+        .subtitle
+            margin-top: 13px
+        .btn 
+            margin-top: 31px
+            color: #ffffff
+    &__author   
+        position: absolute
+        top: 20px
+        left: 90px
+        transform: translateX(-50%)
+        cursor: pointer
+        &-name 
+            font-size: 15px
+            font-weight: 700
+            color: #fff
+        &-position
+            font-size: 15px
+            color: #fff
+            opacity: .5
+    &__video
+        width: 48%
+        height: 100%
+        background: url('../img/mainbg.jpg') center center no-repeat
+        background-size: cover
+        position: relative
+    &__content
+        position: relative
+        display: flex
+        justify-content: space-between
+        width: 1251px
+        height: 307px
+        background-color: $main-color
+        position: absolute
+        bottom: 0
+        left: 84px
+        padding: 40px 0 40px 63px
+        &-title
+            color: #ffffff
+            font-size: 28px
+            line-height: 38px
+            font-weight: 900
+            letter-spacing: -0.56px
+            margin-right: 43px
+        &-slider
+            position: relative
+            width: 860px
+            .slick-prev
+                position: absolute
+                bottom: 0px
+                left: -330px
+                width: 43px
+                height: 43px
+                border: 2px solid rgba(256,256,256, .5)
+                border-radius: 100%
+                background-color: transparent
+                cursor: pointer
+                svg
+                    position: absolute
+                    width: 12px
+                    height: 12px
+                    top: 50%
+                    left: 50%
+                    transform: translateX(-65%) translateY(-50%)
+            .slick-next
+                position: absolute
+                bottom: 0px
+                left: -280px
+                width: 43px
+                height: 43px
+                border: 2px solid rgba(256,256,256, .5)
+                border-radius: 100%
+                background-color: transparent
+                cursor: pointer
+                svg
+                    position: absolute
+                    width: 12px
+                    height: 12px
+                    top: 50%
+                    left: 50%
+                    transform: translateX(-45%) translateY(-50%)
+            .card
+                display: block
+                width: 307px
+                height: 227px
+                border-radius: 8px
+                padding: 32px
+                padding-top: 100px
+                overflow: hidden
+                transition: 0.5s all
+                margin-right: 24px
+                cursor: pointer
+                box-shadow: 0 0px 20px rgba(0,0,0,.5)
+                &__controls
+                    width: 100%
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    color: #ffffff
+                    font-weight: 900
+                    line-height: normal
+                    font-size: 13px
+                    opacity: .5
+                    letter-spacing: 1.365px
+                    text-transform: uppercase
+                    transition: 0.5s all
+                    &-arrow
+                        opacity: 0
+                        transition: 0.5s all
+                &__title
+                    font-weight: 900
+                    line-height: normal
+                    font-size: 24px
+                    letter-spacing: -0.48px
+                    color: #FFFFFF
+                    margin-top: 12px
+                    opacity: .4
+                    transition: 0.5s all
+                &__description
+                    font-weight: normal
+                    line-height: 20px
+                    font-size: 14px
+                    letter-spacing: -0.28px
+                    margin-top: 16px
+                    color: #FFFFFF
+                    opacity: 0
+                    transition: 0.5s all
+                &__1
+                    background: url('../img/slide_1_m.jpg') center center no-repeat
+                    background-size: cover
+                &__2
+                    background: url('../img/slide_2_m.jpg') center center no-repeat
+                    background-size: cover
+                &__3
+                    background: url('../img/slide_3_m.jpg') center center no-repeat
+                    background-size: cover
+            .slick-current .card
+                &__controls
+                    &-arrow
+                        opacity: 1
+                &__title
+                    opacity: 1
+                &__description
+                    opacity: .5
+            .slick-current 
+        &-side
+            width: 86px
+            height: 100%
+            position: absolute
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 34px 0
+            top: 0 
+            right: 0
+            background-color: #fff
+        &-explore
+            width: 250px
+            transform: rotate(-90deg) translateY(-80px)
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .module
+                height: auto
+                width: 220px
+                font-weight: 700
+                line-height: normal
+                font-size: 13px
+                letter-spacing: 2px
+                text-transform: uppercase
+	&__prev
+		display: inline-block
+		position: relative
+		margin-top: 30px
+		width: 43px
+		height: 43px
+		border: 2px solid rgba(255,255,255,.5)
+		border-radius: 100%
+		background-color: transparent
+		cursor: pointer
+		svg
+			position: absolute
+			width: 12px
+			height: 12px
+			top: 50%
+			left: 50%
+			transform: translateX(-65%) translateY(-50%)
+	&__next
+		display: inline-block
+		position: relative
+		margin-top: 30px
+		width: 43px
+		height: 43px
+		border: 2px solid rgba(255,255,255,.5)
+		border-radius: 100%
+		background-color: transparent
+		cursor: pointer
+		svg
+			position: absolute
+			width: 12px
+			height: 12px
+			top: 50%
+			left: 50%
+			transform: translateX(-45%) translateY(-50%)
+            
+

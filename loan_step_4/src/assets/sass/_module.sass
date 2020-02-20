@@ -1,0 +1,216 @@
+.module
+    position: relative
+    height: 100vh
+    padding-top: 0px
+    overflow: hidden
+    .regular
+        font-weight: normal
+    .title 
+        font-size: 48px
+    &__wrapper
+        display: flex
+        width: 100%
+        height: 100%
+        align-items: flex-start
+        justify-content: space-between
+    &__video
+        width: 45%
+        height: 100%
+        margin-left: 84px
+        padding-left: 66px
+        padding-top: 64px
+        background: $main-color
+        &-item
+            width: 490px
+            height: 242px
+            background-color: #fff
+            margin-bottom: 36px
+            padding: 24px 32px
+            text-align: left
+            position: relative
+            border-radius: 8px
+            &_1 
+                background: url('../img/showup.jpg') center center no-repeat
+                background-size: cover
+            &_2 
+                background: url('../img/evolve.jpg') center center no-repeat
+                background-size: cover
+                filter: grayscale(100%)
+                opacity: .6
+            &_3
+                background: url('../img/showup6.jpg') center center no-repeat
+                background-size: cover
+            &_4 
+                background: url('../img/evolve6.jpg') center center no-repeat
+                background-size: cover
+                filter: grayscale(100%)
+                opacity: .6
+            .video__title
+                font-weight: 800
+                line-height: normal
+                font-size: 32px
+                letter-spacing: -0.64px  
+                color: #fff
+            .play
+                position: relative
+                left: 0
+                top: 0
+                margin-top: 80px
+                transform: none
+                justify-content: flex-start 
+                .closed
+                    background: #D8D8D8
+                    .lock
+                        width: 21px
+                        height: 27px
+                        transform: translateY(-50%) translateX(-45%)
+                &__text 
+                    color: #fff
+                .attention
+                    font-weight: 900
+                    line-height: 20px
+                    font-size: 14px
+                    letter-spacing: -0.28px
+                    text-transform: none
+        .btn
+            padding: 19px 24px 21px 24px
+            background: #9EC73D
+            border-radius: 4px
+            display: flex
+            align-items: center
+            color: #fff
+            font-size: 13px
+            .share
+                margin-right: 32px
+            svg 
+                transform: translateY(2px)
+    &__info
+        width: 50%
+        height: 100%
+        padding: 86px 64px 0 64px
+        position: relative
+        hr 
+            opacity: .2
+            margin-top: 25px
+        &-tags 
+            display: flex 
+            align-items: flex-start
+            margin-top: 19px
+            .badge   
+                cursor: pointer
+                background: rgba(109, 83, 175, 0.199813)
+                border: 1px solid rgba(109, 83, 175, 0.301432)
+                border-radius: 15.5px  
+                font-weight: 900
+                line-height: normal
+                font-size: 10px
+                letter-spacing: 1.4px
+                text-transform: uppercase
+                color: #7B6CA1
+                padding: 9px 24px 10px 24px
+                margin-right: 16px
+        &-descr 
+            margin-top: 17px
+            font-weight: normal
+            line-height: 24px
+            font-size: 14px
+            letter-spacing: -0.28px
+        &-show 
+            display: flex 
+            align-items: center
+            justify-content: space-between
+            padding: 13px 26px 14px 26px
+            margin-top: 16px
+            border: 1px solid rgba(0,0,0,.2)
+            border-radius: 8px
+            width: 260px
+            .plus 
+                transform: translateY(2px)
+            .show 
+                font-weight: bold
+                line-height: normal
+                font-size: 13px
+        &-book 
+            display: flex 
+            justify-content: space-between
+            padding-top: 24px
+            .book
+                width: 418px
+                display: flex 
+                &__cover 
+                    width: 81px 
+                    height: 81px
+                    background-color: $main-color
+                    border-radius: 4px
+                    margin-right: 20px
+                    display: flex 
+                    justify-content: center 
+                    align-items: center 
+                    font-size: 38px
+                    font-weight: 700
+                    color: rgba(256,256,256, .6)
+                &__info 
+                    &-name 
+                        font-weight: 900
+                        line-height: normal
+                        font-size: 15px
+                    &-descr 
+                        margin-top: 5px
+                        font-weight: normal
+                        line-height: 18px
+                        font-size: 12px
+                        letter-spacing: -0.24px
+                        opacity: .5
+            .download 
+                border: 1px solid rgba(0,0,0, .2)
+                border-radius: 4px
+                padding: 15px 18px 17px 18px
+                display: flex 
+                justify-content: center
+                height: 48px
+                svg 
+                    transform: translateY(2px)
+                &__text 
+                    font-weight: bold
+                    line-height: normal
+                    font-size: 12px
+                    margin-right: 32px
+        &-controls
+            position: absolute
+            bottom: 0
+            left: 0
+            width: 100%
+            display: flex
+            .prev, .next
+                width: 28%
+                border-top: 1px solid rgba(0,0,0,.2)
+                border-right: 1px solid rgba(0,0,0,.2)
+                display: flex
+                justify-content: space-between
+                align-items: center
+                padding: 24px 32px
+                &__counter
+                    font-weight: bold
+                    line-height: normal
+                    font-size: 12px
+                    opacity: .5
+                &__text
+                    font-weight: bold
+                    line-height: normal
+                    font-size: 12px
+                a 
+                    transform: translateY(1px)
+            .next
+                border-right: none
+                border-left: 1px solid rgba(0,0,0,.2)
+            .current 
+                width: 54%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-weight: bold
+                line-height: normal
+                font-size: 12px
+                border-top: 1px solid rgba(0,0,0,.2)
+                padding: 24px 24px
+

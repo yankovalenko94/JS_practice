@@ -1,0 +1,42 @@
+section {
+    padding: 80px 0 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.carousel, .tab, .accordion {
+    margin-top: 40px;
+    box-shadow: 0 5px 30px rgba(0,0,0, .4);
+}
+
+.googs_items {
+    margin-top: 40px;
+}
+
+form {
+    width: 450px;
+    margin: 40px auto 0 auto;
+}
+
+input {
+    width: 280px;
+    height: 45px;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 18px;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0, .2);
+    border-radius: 4px;
+}
+
+footer {
+    margin-top: 40px;
+    height: 80px;
+    background-color: #000;
+}

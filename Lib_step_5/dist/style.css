@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: 0px auto; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #025fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #343a40;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: all 0.2s; }
+  .btn:hover {
+    background-color: #357fff;
+    color: #fff; }
+  .btn-primary {
+    background-color: #025fff;
+    border-color: #025fff;
+    color: #fff; }
+    .btn-primary:hover {
+      background-color: #004cce; }
+  .btn-success {
+    background-color: #2a9924;
+    border-color: #2a9924;
+    color: #fff; }
+    .btn-success:hover {
+      background-color: #1f701a; }
+  .btn-danger {
+    background-color: #ea2e41;
+    border-color: #ea2e41;
+    color: #fff; }
+    .btn-danger:hover {
+      background-color: #d01528; }
+  .btn-warning {
+    background-color: #ffc907;
+    border-color: #ffc907;
+    color: #fff; }
+    .btn-warning:hover {
+      background-color: #d3a500; }
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff; }
+    .btn-dark:hover {
+      background-color: #1d2124; }
+  .btn-outline-primary {
+    border-color: #025fff;
+    color: #025fff; }
+    .btn-outline-primary:hover {
+      background-color: #025fff; }
+  .btn-outline-success {
+    border-color: #2a9924;
+    color: #2a9924; }
+    .btn-outline-success:hover {
+      background-color: #2a9924; }
+  .btn-outline-danger {
+    border-color: #ea2e41;
+    color: #ea2e41; }
+    .btn-outline-danger:hover {
+      background-color: #ea2e41; }
+  .btn-outline-warning {
+    border-color: #ffc907;
+    color: #ffc907; }
+    .btn-outline-warning:hover {
+      background-color: #ffc907; }
+  .btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40; }
+    .btn-outline-dark:hover {
+      background-color: #343a40; }
+  .btn-block {
+    display: block;
+    width: 100%; }
+
+.text-center {
+  text-align: center; }
+
+.block-center {
+  margin: 0 auto; }
+
+.hidden {
+  visibility: hidden; }
+
+.visible {
+  visibility: visible; }
+
+.d-none {
+  display: none; }
+
+.d-block {
+  display: block; }
+
+.d-flex {
+  display: flex; }
+
+.f-centered {
+  justify-content: center;
+  align-items: center; }
+
+.f-space-around {
+  justify-content: space-around; }
+
+.f-space-between {
+  justify-content: space-between; }
+
+.fz-16 {
+  font-size: 16px; }
+
+.fz-20 {
+  font-size: 20px; }
+
+.fz-24 {
+  font-size: 24px; }
+
+.bold {
+  font-weight: bold; }
+
+.thin {
+  font-weight: 300; }
+
+.italic {
+  font-style: italic; }
+
+.text-color-primary {
+  color: #025fff; }
+
+.text-color-danger {
+  color: #ea2e41; }
+
+.text-color-success {
+  color: #2a9924; }
+
+.text-color-warning {
+  color: #ffc907; }
+
+.text-color-dark {
+  color: #343a40; }
+
+.m10 {
+  margin: 10px; }
+
+.m20 {
+  margin: 20px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.ml-10 {
+  margin-left: 10px; }
+
+.mt-20 {
+  margin-top: 20px; }
+
+.mr-20 {
+  margin-right: 20px; }
+
+.mb-20 {
+  margin-bottom: 20px; }
+
+.ml-20 {
+  margin-left: 20px; }
+
+.p10 {
+  padding: 10px; }
+
+.p20 {
+  padding: 20px; }
+
+.pt-10 {
+  padding-top: 10px; }
+
+.pr-10 {
+  padding-right: 10px; }
+
+.pb-10 {
+  padding-bottom: 10px; }
+
+.pl-10 {
+  padding-left: 10px; }
+
+.pt-20 {
+  padding-top: 20px; }
+
+.pr-20 {
+  padding-right: 20px; }
+
+.pb-20 {
+  padding-bottom: 20px; }
+
+.pl-20 {
+  padding-left: 20px; }
+
+.w-100 {
+  width: 100%; }
+
+.w-50 {
+  width: 50%; }
+
+.w-300 {
+  width: 300px; }
+
+.w-500 {
+  width: 500px; }
+
+.h-100 {
+  height: 100%; }
+
+.h-50 {
+  height: 50%; }
+
+.h-300 {
+  height: 300px; }
+
+.h-500 {
+  height: 500px; }

@@ -1,0 +1,35 @@
+.accordion {
+    max-width: 700px;
+    &-head {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-height: 50px;
+        padding: 0 20px;
+        border: 1px solid rgba(0,0,0, .2);
+        font-size: 18px;
+        color: $dark;
+        cursor: pointer;
+        &--active {
+            color: $primary;
+        }
+    }
+    &-content {
+        max-height: 0px;
+        opacity: 0;
+        overflow: hidden;
+        transition: opacity 0.5s, max-height 0.6s, padding 0.1s;
+        background-color: #fff;
+        border: 1px solid rgba(224,211,211, 1);
+        border-top: none;
+        border-radius: 0 0 4px 4px;
+        &--active {
+            overflow: visible;
+            opacity: 1;
+        }
+    }
+    &-inner {
+        display: block;
+        padding: 20px;
+    }
+}

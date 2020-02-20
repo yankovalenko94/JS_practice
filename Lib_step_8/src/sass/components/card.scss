@@ -1,0 +1,23 @@
+.card {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0, .2);
+    border-radius: 4px;
+    box-shadow: 5px 5px 30px rgba(0,0,0, .1);
+    &-img {
+        width: 100%;
+    }
+    &-body {
+        padding: 20px;
+    }
+    &-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    &-text {
+        margin-bottom: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
